@@ -41,7 +41,7 @@ class Bio(Medical_Robot):
         super()._init_(subject, doctors, student_num,sallary,sucsses)
    
 #----------------------------------------------
-machine==Medical_Robot('Data Structures','DR:nora',88,550,98)
+machine=Medical_Robot('Data Structures','DR:nora',88,550,98)
 print (machine.know_the_subject())
 print(machine.know_the_doctor())
 print(machine.calce_The_Student_num())
